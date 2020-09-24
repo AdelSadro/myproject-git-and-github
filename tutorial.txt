@@ -1,0 +1,6 @@
+1. To initialize a git repository in the root of the folder, run the <<git init>> command.
+2. Create a new file in the <<repository>>
+3. Use <<git status>> to command to see which files git knows exist.
+4. Add the file to the staging environment, using <<git add FILENAME>>.
+5. After adding all the files to the staging environment, it is the time to package them into a commit using the <<git commit -m MESSAGE GOES HERE>> command.
+6. 
