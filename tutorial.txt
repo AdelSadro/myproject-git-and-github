@@ -3,4 +3,16 @@
 3. Use <<git status>> to command to see which files git knows exist.
 4. Add the file to the staging environment, using <<git add FILENAME>>.
 5. After adding all the files to the staging environment, it is the time to package them into a commit using the <<git commit -m MESSAGE GOES HERE>> command.
-6. 
+6. To create a new branch and check out on it (move to the new branch) use <<git checkout -b THE_NEW_BRANCH_NAME>>.
+7. <<git branch>> confirms the new branch was created.
+8. The new branch won't see any changes from the primary branch (or the other way) untile these two branches merge together.
+9. To be able to work on a project with a group of people, the GitHub account is needed.
+10. Create a new repository on GitHub using <<New repository>> button and then name it and provide a brief description. Finally hit the <<Create repository>> button and finish it.
+11. Here GitHub either creates the repository from scrach or push an existing repository from the command line.
+12. <<git remote add origin URL_OF_THE_GITHUB_REPO>>
+13. <<git push -u origin master>>
+14. <<git push origin THE_BRANCH_NAME>> command will create the branch on the remote repository.
+15. <<Pull Request>> is an alert to notify the repository's owner that you want to make some changes to their code, so they can review the code and make sure it looks goodbefore putting your changes on the primary branch.
+16. After pull and merge done successfully, it is better to delete the branch.
+17. In order to get the most recent changes that you or others have merged on GitHub, use the <<git pull origin master>> command when working on the primary branch.
+18. Now use the <<git log>> command to see all new commits.
